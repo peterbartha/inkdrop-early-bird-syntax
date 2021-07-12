@@ -1,4 +1,4 @@
-# Early Bird syntax theme for [Inkdrop](https://inkdrop.app)
+# Octopus syntax theme for [Inkdrop](https://inkdrop.app)
 
 This repository contains a self-made theme for the Inkdrop app with my designed color scheme for better readability.
 
@@ -11,7 +11,7 @@ TODO
 ## Install
 
 ```
-ipm install early-bird-syntax
+ipm install octopus-syntax
 ```
 
 ## Note
@@ -24,23 +24,23 @@ Inkdrop supports three types of themes: UI, Syntax, and Preview.
 
 You can use different themes for different parts of the application.
 
-## Do you want to have full Early Bird theme package?
+## Do you want to have full Octopus theme package?
 
 Instal the other theme parts with the following commands:
 
 ```
-ipm install early-bird-preview
-ipm install early-bird-ui
+ipm install octopus-preview
+ipm install octopus-ui
 ```
 
 ## Related
 
-- [peterbartha/inkdrop-early-bird-ui-theme](https://github.com/peterbartha/inkdrop-early-bird-ui-theme)
-- [peterbartha/inkdrop-early-bird-preview-theme](https://github.com/peterbartha/inkdrop-early-bird-preview-theme)
+- [peterbartha/inkdrop-octopus-ui-theme](https://github.com/peterbartha/inkdrop-octopus-ui-theme)
+- [peterbartha/inkdrop-octopus-preview-theme](https://github.com/peterbartha/inkdrop-octopus-preview-theme)
 
 ## Changelog
 
-See [the GitHub releases](https://github.com/peterbartha/inkdrop-early-bird-syntax-theme/releases) for an overview of what changed in each update.
+See [the GitHub releases](https://github.com/peterbartha/inkdrop-octopus-syntax-theme/releases) for an overview of what changed in each update.
 
 ## License
 

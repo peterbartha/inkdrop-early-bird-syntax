@@ -1,7 +1,7 @@
 {
   "version": "0.1.0",
-  "name": "early-bird-syntax",
-  "description": "Early bird syntax theme",
+  "name": "octopus-syntax",
+  "description": "Octopus syntax theme",
   "theme": "syntax",
   "scripts": {
     "build": "lessc styles/less/default.less ./styles/index.css"
