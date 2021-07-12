@@ -4,7 +4,8 @@
   "description": "Octopus syntax theme",
   "theme": "syntax",
   "scripts": {
-    "build": "lessc styles/less/default.less ./styles/index.css"
+    "build": "lessc styles/less/default.less ./styles/index.css",
+    "prepare": "npm run build"
   },
   "styleSheets": [
     "index.css"
