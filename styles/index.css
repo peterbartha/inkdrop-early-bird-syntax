@@ -11,24 +11,26 @@
 }
 .editor .CodeMirror-gutters {
   background-color: #112a38;
+  border-right: 1px solid #3f4757;
 }
 .editor .CodeMirror-linenumber {
-  color: #4c566a;
+  color: #7b9aad;
   opacity: 0.6;
 }
 .editor .CodeMirror-selected {
-  background-color: #e5e9f0;
+  background-color: #384d50;
 }
 .editor .CodeMirror-focused .CodeMirror-selected {
-  background-color: #d8dee9;
+  background-color: #004650;
 }
 .editor .CodeMirror-cursor {
-  border-left: 1px solid #2e3440;
+  border-left: 1px solid #40a0d6;
+  border-right: 1px solid #40a0d6;
 }
 .editor .CodeMirror-matchingbracket,
 .editor .CodeMirror-matchingtag {
   background: #4c566a !important;
-  border-bottom: 1px solid #88c0d0 !important;
+  border-bottom: 1px solid #89caca !important;
 }
 .editor .CodeMirror-foldgutter-open:after {
   color: #4c566a;
@@ -43,13 +45,13 @@
 .editor .CodeMirror-foldmarker {
   border-color: #4c566a;
   background-color: #4c566a;
-  color: #434c5e;
+  color: #3f4757;
 }
 .editor .CodeMirror .CodeMirror-linewidget img.inline-widget {
   background: rgba(0, 0, 0, 0.05);
 }
 .editor .CodeMirror-searching {
-  background-color: #ebcb8b;
+  background-color: #133550;
 }
 .editor .CodeMirror-searching.searching-current-match {
   background-color: #fa8eea;
@@ -58,9 +60,16 @@
 .editor .CodeMirror .cm-formatting-list.cm-variable-3 {
   color: #fa8eea;
 }
-.editor .CodeMirror .cm-keyword,
+.editor .CodeMirror .cm-builtin,
+.editor .CodeMirror .cm-keyword {
+  color: #fa8eea;
+}
 .editor .CodeMirror .cm-formatting-list.cm-variable-2 {
   color: #59d69d;
+}
+.editor .CodeMirror .cm-formatting + .cm-keyword,
+.editor .CodeMirror .cm-keyword + .cm-keyword {
+  color: #fff;
 }
 .editor .CodeMirror .cm-url,
 .editor .CodeMirror .cm-string,
@@ -73,28 +82,26 @@
 .editor .CodeMirror .cm-plus {
   color: #59d69d;
 }
-.editor .CodeMirror .cm-def,
-.editor .CodeMirror .cm-property {
-  color: #59d69d;
+.editor .CodeMirror .cm-def {
+  color: #40a0d6;
 }
 .editor .CodeMirror .cm-variable {
   color: #59d69d;
 }
 .editor .CodeMirror .cm-operator,
-.editor .CodeMirror .cm-meta,
-.editor .CodeMirror .cm-bracket {
+.editor .CodeMirror .cm-meta {
   color: #a3be8c;
 }
 .editor .CodeMirror .cm-comment {
-  color: #d8dee9;
+  color: #7b9aad;
   font-style: italic;
 }
 .editor .CodeMirror .cm-error,
 .editor .CodeMirror .cm-minus {
-  color: #bf616a;
+  color: #ff5a5f;
 }
 .editor .CodeMirror .cm-formatting-header {
-  opacity: 0.3;
+  opacity: 0.4;
 }
 .editor .CodeMirror .cm-header {
   color: #59d69d;
@@ -107,16 +114,18 @@
   color: #fa8eea;
 }
 .editor .CodeMirror .cm-qualifier,
-.editor .CodeMirror .cm-builtin,
 .editor .CodeMirror .cm-tag {
-  color: #88c0d0;
+  color: #59d69d;
+}
+.editor .CodeMirror .cm-tag.cm-bracket {
+  color: #00b5ad;
 }
 .editor .CodeMirror .cm-quote {
   color: #40a0d6;
   font-style: italic;
 }
 .editor .CodeMirror .cm-whitespace::before {
-  color: #d8dee9;
+  color: #00b5ad;
   opacity: 0.4;
 }
 .editor .CodeMirror .cm-formatting-quote,
@@ -132,21 +141,42 @@
 }
 .editor .CodeMirror .CodeMirror-code > div > pre > span::after,
 .editor .CodeMirror .CodeMirror-line > span::after {
-  color: #2e3440;
+  color: #4c566a;
   opacity: 0.4;
 }
 .editor .CodeMirror .cm-inline-code {
-  background: #0d202b;
-  color: #4c566a;
+  background: rgba(0, 0, 0, 0.2);
+  color: #a3be8c;
 }
 .editor .CodeMirror .gfm-codeblock-bg.CodeMirror-linebackground {
-  background: rgba(0, 0, 0, 0.01);
+  background: rgba(0, 0, 0, 0.2);
 }
 .editor .CodeMirror .cm-table-sep,
 .editor .CodeMirror .table-row.table-row-1 {
   color: #a3be8c;
 }
+.editor .CodeMirror .cm-formatting-link {
+  color: #ffec60;
+}
+.editor .CodeMirror .cm-formatting-link-string {
+  color: #fa8eea;
+}
+.editor .CodeMirror .cm-property,
+.editor .CodeMirror .cm-formatting.cm-formatting-task.cm-meta {
+  color: #ff9797;
+  background: rgba(0, 0, 0, 0.2);
+}
+.editor .CodeMirror .cm-searching {
+  background: none;
+  outline: 1px solid #ffec60;
+}
+.editor .CodeMirror .cm-formatting-strikethrough {
+  color: #ff9797;
+}
+.editor .CodeMirror .cm-strikethrough {
+  text-decoration: line-through #ff9797;
+}
 .editor .CodeMirror-activeline-background,
 .editor .CodeMirror-activeline-gutter {
-  background-color: rgba(236, 239, 244, 0.7) !important;
+  background-color: rgba(0, 0, 0, 0.2) !important;
 }
