@@ -4,9 +4,14 @@ This repository contains a self-made theme for the Inkdrop app with my designed 
 
 Inkdrop provides seamless data sync across devices and platforms without headache. As a note-taking app designed for developers, it is crucial to protect your data since you may store many sensitive pieces of information in it.
 
-## Screenshot
+## Screenshots
 
-TODO
+<table>
+   <tr>
+      <td><img width="600" alt="Octopus theme for Inkdrop 1." src="https://user-images.githubusercontent.com/7854312/127067817-5b33c45a-2e0f-4cd1-8694-82daef5e2a3d.png"></td>
+      <td><img width="600" alt="Octopus theme for Inkdrop 2." src="https://user-images.githubusercontent.com/7854312/127068547-882d5b9b-ac99-4922-b52a-6187827a99d5.png"></td>
+   </tr>
+</table>
 
 ## Install
 
@@ -24,7 +29,7 @@ Inkdrop supports three types of themes: UI, Syntax, and Preview.
 
 You can use different themes for different parts of the application.
 
-## Do you want to have full Octopus theme package?
+## Do you want to have the entire Octopus theme package?
 
 Instal the other theme parts with the following commands:
 
