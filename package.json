@@ -1,14 +1,29 @@
 {
   "name": "octopus-dark-syntax",
-  "version": "0.2.0",
+  "version": "0.0.0",
   "theme": "syntax",
   "description": "Octopus Dark Syntax theme",
+  "keywords": [
+    "theme",
+    "markdown",
+    "note-taking",
+    "end-to-end-encryption",
+    "inkdrop",
+    "inkdrop-syntax",
+    "inkdrop-plugin"
+  ],
   "styleSheets": [
     "index.css"
   ],
   "scripts": {
     "build": "lessc styles/less/default.less ./styles/index.css",
     "prepare": "npm run build"
+  },
+  "author": "Peter Bartha <mail@peterbartha.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterbartha/inkdrop-octopus-dark-syntax-theme"
   },
   "engines": {
     "inkdrop": "^5.x"
