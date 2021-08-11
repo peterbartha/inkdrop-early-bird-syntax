@@ -3,72 +3,72 @@
 .editor {
   .CodeMirror {
     // Background color of main window
-    background-color: @background;
-    color: @text;
+    background-color: @oct-background;
+    color: @oct-text;
   }
   .CodeMirror-scroll {
     // Color of otherwise un-styled text
-    color: @text;
+    color: @oct-text;
   }
   .CodeMirror-gutters {
     // Gutter to the left
-    background-color: @background;
-    border-right: 1px solid @dark-grey-2;
+    background-color: @oct-background;
+    border-right: 1px solid @oct-dark-grey-2;
   }
   .CodeMirror-linenumber {
     // Line numbers in the gutter
-    color: @light-grey-1;
+    color: @oct-light-grey-1;
     opacity: 0.6;
   }
   .CodeMirror-selected {
     // Highlighed text
-    background-color: @dark-turquoise-3;
+    background-color: @oct-dark-turquoise-3;
   }
   .CodeMirror-focused .CodeMirror-selected {
     // Highlighed text
-    background-color: @dark-turquoise-1;
+    background-color: @oct-dark-turquoise-1;
   }
   .CodeMirror-cursor {
     // The cursor
-    border-left: 1px solid @blue;
-    border-right: 1px solid @blue;
+    border-left: 1px solid @oct-blue;
+    border-right: 1px solid @oct-blue;
   }
   .CodeMirror-matchingbracket,
   .CodeMirror-matchingtag {
     // When you click a tag/bracket and the matching one is highlighted
-    background: @dark-grey-1 !important;
-    border-bottom: 1px solid @light-turquoise-1 !important;
+    background: @oct-dark-grey-1 !important;
+    border-bottom: 1px solid @oct-light-turquoise-1 !important;
   }
   .CodeMirror-foldgutter-open:after {
     // Those little arrows in the gutter
-    color: @dark-grey-1;
+    color: @oct-dark-grey-1;
   }
   .CodeMirror-foldgutter-folded:after {
     // The arrows after you collapse code
-    color: @dark-grey-1;
+    color: @oct-dark-grey-1;
   }
   .CodeMirror.over-gutter,
   .CodeMirror-activeline {
     .CodeMirror-foldgutter-open:after {
       // Arrows when hovering on the gutter
-      color: @dark-grey-1;
+      color: @oct-dark-grey-1;
     }
   }
   .CodeMirror-foldmarker {
     // The [...] marking collapsed code
-    border-color: @dark-grey-1;
-    background-color: @dark-grey-1;
-    color: @dark-grey-2;
+    border-color: @oct-dark-grey-1;
+    background-color: @oct-dark-grey-1;
+    color: @oct-dark-grey-2;
   }
   .CodeMirror .CodeMirror-linewidget img.inline-widget {
     background: rgba(0, 0, 0, 0.05);
   }
   .CodeMirror-searching {
     // Ctrl + F results
-    background-color: @dark-blue-1;
+    background-color: @oct-dark-blue-1;
     // Selected result
     &.searching-current-match {
-      background-color: @purple;
+      background-color: @oct-purple;
     }
   }
 
@@ -77,77 +77,77 @@
   .CodeMirror {
     .cm-atom,
     .cm-formatting-list.cm-variable-3 {
-      color: @purple;
+      color: @oct-purple;
     }
 
     .cm-builtin,
     .cm-keyword {
-      color: @purple;
+      color: @oct-purple;
     }
     .cm-formatting-list.cm-variable-2 {
-      color: @primary;
+      color: @oct-primary;
     }
 
     .cm-formatting + .cm-keyword,
     .cm-keyword + .cm-keyword {
-      color: @text;
+      color: @oct-text;
     }
 
     .cm-url,
     .cm-string,
     .cm-string-2,
     .cm-hr {
-      color: @peach;
+      color: @oct-peach;
     }
     .cm-number,
     .cm-attribute,
     .cm-plus {
-      color: @primary;
+      color: @oct-primary;
     }
     .cm-def {
-      color: @blue;
+      color: @oct-blue;
     }
     .cm-variable {
-      color: @primary;
+      color: @oct-primary;
     }
     .cm-operator,
     .cm-meta {
-      color: @green;
+      color: @oct-green;
     }
     .cm-comment {
-      color: @light-grey-1;
+      color: @oct-light-grey-1;
       font-style: italic;
     }
     .cm-error,
     .cm-minus {
-      color: @error;
+      color: @oct-error;
     }
     .cm-formatting-header {
       opacity: 0.4;
     }
     .cm-header {
-      color: @primary;
+      color: @oct-primary;
     }
     .cm-link {
-      color: @green;
+      color: @oct-green;
       text-underline-position: under;
     }
     .cm-rangeinfo {
-      color: @purple;
+      color: @oct-purple;
     }
     .cm-qualifier,
     .cm-tag {
-      color: @primary;
+      color: @oct-primary;
     }
     .cm-tag.cm-bracket {
-      color: @turquoise;
+      color: @oct-turquoise;
     }
     .cm-quote {
-      color: @blue;
+      color: @oct-blue;
       font-style: italic;
     }
     .cm-whitespace::before {
-      color: @turquoise;
+      color: @oct-turquoise;
       opacity: 0.4;
     }
     .cm-formatting-quote,
@@ -156,62 +156,62 @@
       opacity: 0.6;
     }
     .cm-strong {
-      color: @gold;
+      color: @oct-gold;
     }
     .cm-em {
-      color: @purple;
+      color: @oct-purple;
     }
 
     // carriage return
     .CodeMirror-code > div > pre > span::after,
     .CodeMirror-line > span::after {
-      color: @dark-grey-1;
+      color: @oct-dark-grey-1;
       opacity: 0.4;
     }
 
     .cm-inline-code {
-      background: @darker;
-      color: @green;
+      background: @oct-darker;
+      color: @oct-green;
     }
 
     .gfm-codeblock-bg.CodeMirror-linebackground {
-      background: @darker;
+      background: @oct-darker;
     }
 
     .cm-table-sep,
     .table-row.table-row-1 {
-      color: @green;
+      color: @oct-green;
     }
 
     .cm-formatting-link {
-      color: @gold;
+      color: @oct-gold;
     }
     .cm-formatting-link-string {
-      color: @purple;
+      color: @oct-purple;
     }
 
     .cm-property,
     .cm-formatting.cm-formatting-task.cm-meta {
-      color: @peach;
-      background: @darker;
+      color: @oct-peach;
+      background: @oct-darker;
     }
 
     .cm-searching {
       background: none;
-      outline: 1px solid @gold;
+      outline: 1px solid @oct-gold;
     }
 
     .cm-formatting-strikethrough {
-      color: @peach;
+      color: @oct-peach;
     }
     .cm-strikethrough {
-      text-decoration: line-through @peach;
+      text-decoration: line-through @oct-peach;
     }
   }
 
   /* Active Line Highlight support */
   .CodeMirror-activeline-background,
   .CodeMirror-activeline-gutter {
-    background-color: @darker !important;
+    background-color: @oct-darker !important;
   }
 }
