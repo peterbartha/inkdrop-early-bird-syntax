@@ -1,15 +1,15 @@
 {
+  "name": "octopus-dark-syntax",
   "version": "0.2.0",
-  "name": "octopus-syntax",
-  "description": "Octopus syntax theme",
   "theme": "syntax",
+  "description": "Octopus Dark Syntax theme",
+  "styleSheets": [
+    "index.css"
+  ],
   "scripts": {
     "build": "lessc styles/less/default.less ./styles/index.css",
     "prepare": "npm run build"
   },
-  "styleSheets": [
-    "index.css"
-  ],
   "engines": {
     "inkdrop": "^5.x"
   },
